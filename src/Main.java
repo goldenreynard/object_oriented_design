@@ -10,6 +10,7 @@ public class Main {
         kartik.pause();
 
         Student naman = new Student("A53", "Naman");
+        Student nandani = new Student(naman);
         System.out.println("Done");
     }
 }
