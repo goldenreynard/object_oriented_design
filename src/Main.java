@@ -7,8 +7,9 @@ public class Main {
         kartik.marks = 64;
         kartik.section = 'A';
         kartik.isActive = true;
-
         kartik.pause();
+
+        Student naman = new Student("A53", "Naman");
         System.out.println("Done");
     }
 }

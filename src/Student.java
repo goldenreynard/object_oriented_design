@@ -4,10 +4,16 @@ public class Student {
     Integer marks;
     char section;
     boolean isActive;
-
     void pause() {
         this.isActive = false;
     }
+    Student(String Id, String name){
+        this.Id = Id;
+        this.name = name;
+    }
 
+    Student(){
+
+    }
 }
 
