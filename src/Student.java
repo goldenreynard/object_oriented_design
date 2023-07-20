@@ -16,11 +16,11 @@ public class Student {
 
     Student() {}
 
-    Student(Student other){
-        this.Id = other.Id;
-        this.name = other.name;
-        this.marks = other.marks;
-        this.section = other.section;
+    Student(Student other){ // Copy constructor
+        Id = other.Id;
+        name = other.name;
+        marks = other.marks;
+        section = other.section;
 
         System.out.println("Hello Student");
     }
